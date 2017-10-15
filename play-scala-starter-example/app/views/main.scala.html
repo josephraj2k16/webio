@@ -1,0 +1,16 @@
+
+@* index1 Template File *@
+@(hello:Form[String])(implicit request: RequestHeader, messagesProvider: MessagesProvider)
+
+
+@import helper._	
+<html>
+
+@helper.form(routes.HomeController.sayHello){
+	@helper.inputText(hello("name"))
+	
+	<input type="submit" value="Enter"/>
+}
+
+
+</html>

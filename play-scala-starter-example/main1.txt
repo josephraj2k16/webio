@@ -1,0 +1,1 @@
+http://mycodingtricks.com/javascript/webcam-api/
