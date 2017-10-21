@@ -14,4 +14,5 @@ libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "3.0.0
 libraryDependencies += "com.h2database" % "h2" % "1.4.194"
 libraryDependencies += "com.github.sarxos" % "webcam-capture" % "0.3.11"
 libraryDependencies += "com.typesafe.play" %% "play-native-loader" % "1.0.0"
+libraryDependencies += "com.nativelibs4java" % "bridj" % "0.6.2"
 
